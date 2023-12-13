@@ -5,6 +5,7 @@ Firstly, we want to express our gratitude to Sonny and the entire Codedex team f
 ## Purpose and Features
 
 Our interactive cassette player allows users to enjoy a festive playlist with features such as play, pause, skip, and previous track navigation. Notably, unpausing resumes playback where you left off!
+wanted to add a volume bar display for users to see, but unfortunately we ran out of time :<
 
 ## Installation
 
