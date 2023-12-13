@@ -178,7 +178,11 @@ button {
     flex-direction: column;
 }
 
-.volume {
+.volume-up {
+    height: 28px;
+}
+
+.volume-down {
     height: 28px;
 }
 
