@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">HELLO WORLD</h1>
+    <div class="cassette-player">
+        <div class="cassette">
+            <div class="reels">
+                <div class="reel"></div>
+                <div class="reel"></div>
+            </div>
+            <div class="window"></div>
+            <div class="buttons">
+                <button class="play"></button>
+                <button class="stop"></button>
+                <button class="rewind"></button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
