@@ -97,11 +97,13 @@ body {
 .actualCassette {
     width: 90%;
     height: 90%;
-    background-color: rgb(217, 217, 111);
+    background-color: rgb(37, 112, 27);
     border-radius: 5%;
     position: absolute;
     left: 13px;
     bottom: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .actualCassetteLabel {
@@ -115,8 +117,14 @@ body {
 
 }
 
+.TeamNameOnCassette {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
 .circleThing {
-    background-color: blue;
+    background-color: rgb(25, 72, 19);
     width: 80%;
     height: 50%;
     border-radius: 50px;
@@ -138,7 +146,7 @@ body {
 .circle {
     height: 30px;
     width: 30px;
-    border-radius: 50%;
+    border-radius: 50px;
     background-color: orange;
 }
 
@@ -157,4 +165,9 @@ button {
     background-color: #777;
     border: none;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:active {
+    background-color: #555;
 }
