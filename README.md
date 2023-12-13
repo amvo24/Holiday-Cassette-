@@ -11,7 +11,7 @@ Our interactive cassette player allows users to enjoy a festive playlist with fe
 To get started:
 1. Ensure you have the latest version of Flask installed. (pip or pip3 install Flask).
 2. Run `app.py` inside the 'my_flask_app' directory.
-3. View the local server port in your terminal.
+3. View the local server port in your terminal and click on that link!
 
 ## Directory Structure
 
