@@ -18,8 +18,8 @@ To get started:
 If you're curious about the project structure, key files are located in specific directories. For example:
 - `static`: Contains static assets (CSS, images, audio files).
 - `templates`: Holds HTML templates for Flask.
-Also halfway through the project we realized we really didn't need to use Flask, but did anyway. :)
 
+Also halfway through the project we realized we really didn't need to use Flask, but did anyway. :)
 
 ## Dependencies
 
