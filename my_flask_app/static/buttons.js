@@ -48,33 +48,35 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 })
 
+// couldnt work :(
+
 // function getCurrentAudioIndex() {
 //     // Replace this with your logic to get the current audio index
 //     return 0;
 // }
 
 // dynamic display function
-function getCurrentSongName() {
-    switch (currentAudioIndex) {
-        case 0:
-            return "Bill Evans - Skating In Central Park";
-        case 1:
-            return "Frank Sinatra - Have Yourself A Merry Little Christmas";
-        case 2:
-            return "Michael Bublé - It's Beginning To Look A Lot Like Christmas";
-        case 3:
-            return "The Drifters - White Christmas";
-        default:
-            return "Unknown Song";
-    }
-}
+// function getCurrentSongName() {
+//     switch (currentAudioIndex) {
+//         case 0:
+//             return "Bill Evans - Skating In Central Park";
+//         case 1:
+//             return "Frank Sinatra - Have Yourself A Merry Little Christmas";
+//         case 2:
+//             return "Michael Bublé - It's Beginning To Look A Lot Like Christmas";
+//         case 3:
+//             return "The Drifters - White Christmas";
+//         default:
+//             return "Unknown Song";
+//     }
+// }
 
-function updateSongInfo() {
-    const currentSongTitle = getCurrentSongName();
-    const currentSongElement = document.getElementById("currentSong");
+// function updateSongInfo() {
+//     const currentSongTitle = getCurrentSongName();
+//     const currentSongElement = document.getElementById("currentSong");
 
-    // Update the content of the current song span
-    currentSongElement.textContent = currentSongTitle;
-}
+//     // Update the content of the current song span
+//     currentSongElement.textContent = currentSongTitle;
+// }
 
-updateSongInfo();
+// updateSongInfo();
